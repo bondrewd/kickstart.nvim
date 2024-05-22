@@ -595,6 +595,15 @@ require('lazy').setup({
             },
           },
         },
+        rust_analyzer = {
+          settings = {
+            ['rust-analyzer'] = {
+              checkOnSave = {
+                command = 'clippy',
+              },
+            },
+          },
+        },
       }
 
       -- Ensure the servers and tools above are installed
