@@ -633,7 +633,7 @@ require('lazy').setup({
         -- ts_ls = {},
         --
         zls = {
-          cmd = { '/Users/diego/.local/bin/zls' },
+          cmd = { 'zls' },
         },
 
         lua_ls = {
